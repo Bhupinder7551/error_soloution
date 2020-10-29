@@ -1,0 +1,15 @@
+1.error while uploading xammp to github(fatal: unknown index entry format 0x164d0000)
+sol- in terminal( del .git\index
+      git reset)
+      
+2. how to upload xammp to github with cmd
+sol- 
+     git init
+     git add . 
+     git commit -m "first commit"
+     // branch -M main
+     git remote add origin https://github.com/Bhupinder7551/Bizz360Testing_bhupinder.git
+     git push 
+     git push origin master
+                
+
