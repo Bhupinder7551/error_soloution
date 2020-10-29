@@ -1,8 +1,4 @@
-1.error while uploading xammp to github(fatal: unknown index entry format 0x164d0000)
-sol- in terminal( del .git\index
-      git reset)
-      
-2. how to upload xammp to github with cmd
+1. how to upload xammp to github with cmd
 sol- 
      git init
      git add . 
@@ -11,5 +7,16 @@ sol-
      git remote add origin https://github.com/Bhupinder7551/Bizz360Testing_bhupinder.git
      git push 
      git push origin master
+     
+2.error while uploading xammp to github(fatal: unknown index entry format 0x164d0000)
+sol- in terminal( del .git\index
+      git reset)
+ 
+3.error(
+error: inflate: data stream error (invalid distance too far back)
+error: corrupt loose object 'c5f1558ce57f8eb2c9ed9394e9da31686e7b5154'
+fatal: loose object c5f1558ce57f8eb2c9ed9394e9da31686e7b5154 (stored in .git/objects/c5/f1558ce57f8eb2c9ed9394e9da31686e7b5154) is corrupt)
+sol-      
+
                 
 
