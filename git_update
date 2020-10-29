@@ -19,4 +19,6 @@ fatal: loose object c5f1558ce57f8eb2c9ed9394e9da31686e7b5154 (stored in .git/obj
 sol-      
 
                 
-
+4.Error already exist
+sol- git remote rm origin
+     git remote rm upstream
