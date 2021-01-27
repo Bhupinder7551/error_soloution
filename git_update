@@ -22,3 +22,11 @@ sol-
 4.Error already exist
 sol- git remote rm origin
      git remote rm upstream
+
+5.How to redirect php website to another url 301
+<?php
+// Permanent 301 redirection
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: https://www.rpmx.info/beta");
+exit();
+?>
